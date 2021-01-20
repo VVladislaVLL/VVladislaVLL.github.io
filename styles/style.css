@@ -1,0 +1,126 @@
+.wrapper {
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.stripe {
+    height: 30px;
+    width: 100%;
+    background: black;
+}
+
+.title {
+    display: flex;
+    margin: 40px 0;
+    position: relative;
+}
+
+.title_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url("../assets/Vladislav-Kochurko.jpg");
+    background-size: cover;
+    background-position: 5px -30px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+.full-name h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    width: 150px;
+    height: fit-content;
+    letter-spacing: 7px;
+}
+
+.full-name_name {
+    color: #98a1b8;
+}
+.full-name h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.title-mail {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: black;
+    margin-left: auto;
+}
+
+.topic, .subtopic {
+    width: 100%;
+}
+
+.topic-break {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topic-title {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    width: 20%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.subtopic-title {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    color: #98a1b8;
+    width: 20%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.topic-stripe {
+    height: 3px;
+    background: #98a1b8;
+    border: none;
+    width: calc(80% - 20px);
+}
+
+
+.profile-text {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    width: calc(80% - 20px);
+    margin: 30px 0 30px auto;
+}
+
+.skills-list {
+    list-style: disc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    width: calc(80% - 40px);
+    margin: 30px 0 30px auto;
+}
+
+.subtopic {
+    margin: 20px 0;
+    display: flex;
+}
+
+.subtopic-info {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
