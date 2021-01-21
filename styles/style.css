@@ -122,5 +122,28 @@
 .subtopic-info {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.education-list {
+    list-style: disc;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
+    width: calc(100% - 40px);
+    margin: 20px 0 20px auto;
+}
+
+.subtopic-info-text {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 20px 0 10px auto;
+}
+
+.word-wrap {
+    word-wrap: break-word
+}
+
+.block-subtopic {
+    width: calc(80% - 20px);
 }
