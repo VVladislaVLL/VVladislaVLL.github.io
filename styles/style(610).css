@@ -61,13 +61,6 @@
         text-align: center;
     }
 
-    .skills-list {
-        list-style: disc;
-        font-size: 18px;
-        width: fit-content;
-        margin: 30px auto 30px auto;
-    }
-
     .subtopic {
         margin: 20px 0;
         display: flex;
@@ -102,5 +95,30 @@
     .block-subtopic {
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    .skills-ul {
+        display: flex;
+        width: calc(80% - 20px);
+        margin: 0 auto;
+    }
+    .ul {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    .skills-list {
+        font-size: 18px;
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+
+    .skills-list li {
+        padding: 5px 0;
     }
 }

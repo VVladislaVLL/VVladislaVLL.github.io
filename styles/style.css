@@ -107,11 +107,12 @@
 }
 
 .skills-list {
+    display: block;
     list-style: disc;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    width: calc(80% - 40px);
-    margin: 30px 0 30px auto;
+    margin: 30px 0 30px 0;
+    width: fit-content;
 }
 
 .subtopic {
@@ -146,4 +147,17 @@
 
 .block-subtopic {
     width: calc(80% - 20px);
+}
+
+.skills-ul {
+    display: flex;
+    width: calc(80% - 20px);
+    margin-left: auto;
+}
+.ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: 20px;
 }
